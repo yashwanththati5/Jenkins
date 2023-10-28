@@ -24,7 +24,7 @@ public class StartTheAutomation {
             else if(i == 4) Data.setCodeforcesColumnName(args[i]);
             else if(i == 5) Data.setGeekforgeeksColumnName(args[i]);
         }
-        System.out.println(Data.getLeetCodeColumnName());
+        System.out.println(Data.getLeetcodeColumnName());
         StartTheAutomation.start();
     }
 }
